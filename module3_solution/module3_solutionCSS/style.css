@@ -39,9 +39,23 @@ h1{
 	text-align: center;
 }
 
-#para{
+h3{
+	text-align: center;
+	color: white;
+}
+
+#para-div{
 	height:1000px;
 	background-color: #424242;
+	color: white;	
+}
+
+#para-div h3{
+	padding-top: 10px;	
+}
+
+#para{
+	padding: 20px;
 }
 
 /*----for xs background color-----*/
