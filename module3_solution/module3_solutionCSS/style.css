@@ -10,7 +10,7 @@
 	font-weight: bold;
 	color:#76FF03;
 	font-size:25px;
-	
+
  
 }
 
@@ -18,5 +18,36 @@
   text-decoration: none;
 }
 
+#collapsable-nav{
 
+}
+
+#nav-list a:hover{
+	color: #616161;	
+}
+
+#nav-list a{
+	color:white;
+	text-align: center;
+}
+
+#nav-list hr{
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+#para{
+	height:1000px;
+	background-color: #424242;
+}
+
+/*----for xs background color-----*/
+@media only screen and (max-width : 768px) {
+   #collapsable-nav{
+   	background-color: #9E9E9E;
+   }
+}
 

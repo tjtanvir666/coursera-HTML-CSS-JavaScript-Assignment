@@ -20,7 +20,7 @@
           </div>
 
            <!--the mobile screen button-->
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-collapse" aria-expanded="false" class="visible-xs">  <!--targeting the id at line-31-->
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" class="visible-xs">  <!--targeting the id at line-31-->
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -28,19 +28,26 @@
             </button>
           </div>
 
-          <div id="collapsable-nav" class="collapse navbar-collapse"><!--id targeted at line 23-->
-            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-              <li ><a href="#">Chicken</a></li>
-              <li ><a href="#">Beef</a></li>
-              <li ><a href="#">Sushi</a></li>
+          <div id="collapsable-nav" class="collapse navbar-collapse visible-xs navi"><!--id targeted at line 23-->
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs"><!---->
+              <li ><a href="#">Chicken</a><hr></li>
+              <li ><a href="#">Beef</a><hr></li>
+              <li ><a href="#">Sushi</a><hr></li>
             </ul>
-          </div>
+          </div><!--collapseable nav-->
       </div><!--container-->
     </nav>
   </header>
 
+  <h1>OUR MENU</h1>
+
+  <p id="para">
+    asgsagsagag
+  </p>      
     
-  </div><!-- /.container-fluid -->
-</nav>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="module3_solutionJS/jquery-1.11.3.min.js"></script>
+  <script src="module3_solutionJS/bootstrap.min.js"></script>
+  <script src="module3_solutionJS/script.js"></script>
 </body>
 </html>
