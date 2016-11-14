@@ -1,0 +1,67 @@
+#nav{
+	border-radius: 0;
+	background-color: #424242;
+	border:0;
+}
+
+ .navbar-brand h1{
+	font-family: 'PT Sans', sans-serif;
+    margin-top: 0;
+	font-weight: bold;
+	color:#76FF03;
+	font-size:25px;
+
+ 
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav{
+
+}
+
+#nav-list a:hover{
+	color: #616161;	
+}
+
+#nav-list a{
+	color:white;
+	text-align: center;
+}
+
+#nav-list hr{
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	color: white;
+}
+
+#para-div{
+	height:1000px;
+	background-color: #424242;
+	color: white;	
+}
+
+#para-div h3{
+	padding-top: 10px;	
+}
+
+#para{
+	padding: 20px;
+}
+
+/*----for xs background color-----*/
+@media only screen and (max-width : 768px) {
+   #collapsable-nav{
+   	background-color: #9E9E9E;
+   }
+}
+
