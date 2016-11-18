@@ -10,7 +10,7 @@
 // See Lecture 52, part 1
 // var byeSpeaker =
 
-(function(){
+(function(window){
    	// DO NOT attach the speakWord variable to the 'byeSpeaker' object.
     var byeSpeaker = {};
 	var speakWord = "Good Bye";
